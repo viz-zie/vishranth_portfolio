@@ -20,7 +20,7 @@ const Hero = () => {
     return (
         <section className='pt-0' id='about'>
             <div className='container pt-40 pb-24'>
-                <div className='md:flex items-center justify-between sm:flex-col md:flex-row'>
+                <div className='items-center justify-between md:flex sm:flex-col md:flex-row'>
                     {/* her left start */}  
                     <div className='w-full md:basis-1/2'>
                         <h5 data-aos='fade-right' data-aos-duration='1500' className='text-headingColor font-[600]
@@ -32,7 +32,7 @@ const Hero = () => {
                         </h1>
 
                         <h1 data-aos='fade-right' data-aos-duration='1500' className='text-headingColor font-[400]
-                        text-[1.8rem] sm-text[40px] leading-[35px] sm:leading-[46px] mt-5'> Fullstack Developer
+                        text-[1.8rem] sm-text[40px] leading-[35px] sm:leading-[46px] mt-5'> Cybersecurity Consultant 
                         </h1>
 
                         <div data-aos='fade-right' data-aos-duration='1500' data-aos-delay='150' className='flex items-center gap-6 mt-7'>
@@ -60,14 +60,13 @@ const Hero = () => {
                     {/* hero left end */}
 
                     {/* hero img */}
-                    <div className='basis-1/3 mt-10 sm:mt-0'>
+                    <div className='mt-10 basis-1/3 sm:mt-0'>
                         <figure className='flex items-center justify-center '><img className='vishimage' src={vishranth} alt='' /></figure>
                     </div>
                     {/* hero img end */}
 
                     {/* hero image content right */}
-                    <div className='md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col
-                        md:justify-end md:text-end'>
+                    <div className='flex flex-wrap justify-between gap-3 mt-10 text-center md:basis-1/5 md:mt-0 md:flex-col md:justify-end md:text-end'>
                         <div className='mb-10'>
                             <span><a href='#reactjs' className='text-smallTextColor text-[80px] '><i class="ri-reactjs-fill"></i></a></span>
                             <CountUp className='text-headingColor font-[600] bold text-[20px]' start={0} end={60} duration={3} suffix='%' />
