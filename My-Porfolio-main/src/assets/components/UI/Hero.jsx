@@ -45,7 +45,7 @@ const Hero = () => {
                         text-[1.8rem] sm-text[40px] leading-[35px] sm:leading-[46px] mt-5"
             >
               {" "}
-              Cybersecurity Consultants
+              Cybersecurity Consultant
             </h1>
 
             <div
