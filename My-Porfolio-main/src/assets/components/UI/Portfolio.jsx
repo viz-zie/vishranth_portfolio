@@ -23,15 +23,11 @@ const Portfolio = () => {
             setPortfolios(data);
         }
         if (selectTab === 'web-design') {
-            const filteredData = data.filter(item => item.category === 'Web Design')
+            const filteredData = data.filter(item => item.category === 'Projects')
             setPortfolios(filteredData);
         }
         if (selectTab === 'ux-design') {
-            const filteredData = data.filter(item => item.category === 'Ux')
-            setPortfolios(filteredData);
-        }
-        if (selectTab === 'machine-learning') {
-            const filteredData = data.filter(item => item.category === 'Machine Learning')
+            const filteredData = data.filter(item => item.category === 'Certifications')
             setPortfolios(filteredData);
         }
     }, [selectTab])
@@ -40,10 +36,10 @@ const Portfolio = () => {
         <section id='portfolio'>
             <div className='container'>
                 {/* Title & Buttons */}
-                <div className='flex items-center justify-between flex-wrap'>
+                <div className='flex flex-wrap items-center justify-between'>
                     <div className='mb-7 sm:mb-0'>
                         <h3 className='text-headingColor text-[2.5rem] font-[700]'>
-                            Projects
+                            Projects & Certifications
                         </h3>
                     </div>
 
@@ -54,28 +50,25 @@ const Portfolio = () => {
                         </button>
                         <button onClick={() => setSelectTab('web-design')} className='bg-smallTextColor bg-black text-white font-[500] gap-2 hover:bg-smallTextColor
                     ease-in duration-100 py-2 px-4 rounded-[8px]'>
-                            Full Stack
+                            Projects
                         </button>
                         <button onClick={() => setSelectTab('ux-design')} className='bg-smallTextColor bg-black text-white font-[500] gap-2 hover:bg-smallTextColor
                     ease-in duration-100 py-2 px-4 rounded-[8px]'>
-                            UX/UI
+                            Certifications
                         </button>
 
-                        <button onClick={() => setSelectTab('machine-learning')} className='bg-smallTextColor bg-black text-white font-[500] gap-2 hover:bg-smallTextColor
-                    ease-in duration-100 py-2 px-4 rounded-[8px]'>
-                            Machine Learning
-                        </button>
+    
                     </div>
                 </div>
 
-                <div className='flex items-center gap-4 flex-wrap mt-12'>
+                <div className='flex flex-wrap items-center gap-4 mt-12'>
                     {
                         portfolios?.slice(0, nextItems).map((portfolio, index) => (
                             <div key={index} data-aos='fade-zoom-in' data-aos-delay='50' data-aos-duration='1000' className='group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1]'>
                                 <figure><img className='rounded-[8px]' src={portfolio.imgUrl} alt='' /></figure>
 
                                 <div className='w-full h-full bg-primaryColor bg-opacity-40 absolute top-0 left-0 z-[5] hidden group-hover:block'>
-                                    <div className='w-full h-full flex items-center justify-center'>
+                                    <div className='flex items-center justify-center w-full h-full'>
                                         <button className='text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] 
                                         font-[500] ease-in duration-200'>  <a target='_blank' href = { portfolio.siteUrl && portfolio.siteUrl}> Details </a> </button></div>
                                 </div>
@@ -84,7 +77,7 @@ const Portfolio = () => {
                     }
                 </div>
 
-                <div className='text-center mt-6'>
+                <div className='mt-6 text-center'>
                     {nextItems < portfolios.length && data.length > 6 && (
                         <button onClick={loadMoreHandler}
                             className='bg-smallTextColor bg-black text-white font-[500] gap-2 hover:bg-smallTextColor

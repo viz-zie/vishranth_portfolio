@@ -25,7 +25,7 @@ const Footer = () => {
 
           <div className='w-full sm:w-1/2'>
             <p className='text-gray-300 leading-7 mt-4 sm:mt-0 text-[20px]'>
-              "I’m not a great programmer; I’m just a good programmer with great habits."
+              "Cybersecurity Engineer. Coffee-powered. Threat-aware."
             </p>
 
             <div className='flex items-center gap-4 flex-wrap md:gap-8'>
