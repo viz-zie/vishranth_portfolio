@@ -1,7 +1,7 @@
 import React from "react";
 // import heroImg from '../../images/hero.svg';
 // import frontimageImg from '../../images/frontimage.svg';
-import vishranth from "../../images/hero5.png";
+import vishranth from "../../images/hero7.png";
 // import nodedotjsImg from '../../images/nextdotjs.svg';
 
 import CountUp from "react-countup";
@@ -136,14 +136,14 @@ const Hero = () => {
 
           {/* hero image content right */}
           <div className="flex flex-wrap justify-between gap-3 mt-10 text-center md:basis-1/5 md:mt-0 md:flex-col md:justify-end md:text-end">
-            <div className="ml-20">
+            <div className="flex justify-center">
               <span>
                 <SiQualys size={80} />
 
               </span>
               
             </div>
-            <div className="ml-20">
+            <div className="flex justify-center">
               <span>
                 
                 <FaAws size={80} />
