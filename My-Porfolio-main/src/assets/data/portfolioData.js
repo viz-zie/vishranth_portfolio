@@ -1,10 +1,5 @@
 import portfolioImg01 from "../images/ecom6a.png";
 import portfolioImg02 from "../images/ott2.png";
-import portfolioImg03 from "../images/portfolio-03.jpg";
-import portfolioImg04 from "../images/simon.png";
-import portfolioImg05 from "../images/textsummarytool.jpg";
-import portfolioImg06 from "../images/portfolio-06.jpg";
-import portfolioImg07 from "../images/portfolio-07.jpg";
 import portfolioImg08 from "../images/flightdelayprediction3.jpg";
 import portfolioImg09 from "../images/comptia3.png";
 import portfolioImg10 from "../images/awsccp1.png";
@@ -50,7 +45,7 @@ const portfolios = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "https://github.com/viz-zie/Garbage_classification_CNN",
+    siteUrl: "https://drive.google.com/file/d/1AZGlixZjlZdmD9-rwxwl1iTAU88U5RyC/view?usp=sharing",
   },
   {
     id: "05",
@@ -60,7 +55,7 @@ const portfolios = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "https://github.com/viz-zie/Garbage_classification_CNN",
+    siteUrl: "https://drive.google.com/file/d/1k3nPw-xjIjNLhbWqYHhcZPjeg6eGM0T0/view?usp=sharing",
   },
   {
     id: "06",
@@ -70,7 +65,7 @@ const portfolios = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "https://github.com/viz-zie/Garbage_classification_CNN",
+    siteUrl: "https://drive.google.com/file/d/1OGnqB1fAuc17xfUKVf4SGWh_iG6a6nQy/view?usp=sharing",
   },
   {
     id: "07",
@@ -80,7 +75,7 @@ const portfolios = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "https://github.com/viz-zie/Garbage_classification_CNN",
+    siteUrl: "https://drive.google.com/file/d/1iamy9PTDDrwo7vROS1NL1zr0PHCLIXxG/view?usp=sharing",
   },
 
 ];
