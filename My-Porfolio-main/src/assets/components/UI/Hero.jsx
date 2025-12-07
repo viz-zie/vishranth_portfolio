@@ -15,7 +15,7 @@ const Hero = () => {
   }, [window.onload]);
 
   return (
-    <section className="pt-0" id="about">
+    <section className="pt-0 m-10" id="about">
       <div className="container pt-40 pb-24">
         <div className="items-center justify-between md:flex sm:flex-col md:flex-row">
           {/* her left start */}
