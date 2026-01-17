@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/vishranth_portfolio/static/css/main.0f68cc57.css",
-    "main.js": "/vishranth_portfolio/static/js/main.9478fe3b.js",
+    "main.js": "/vishranth_portfolio/static/js/main.6be85464.js",
     "static/media/hero7.png": "/vishranth_portfolio/static/media/hero7.33b9febfeb64c3b1d4e0.png",
     "static/media/remixicon.svg?t=1681573354175": "/vishranth_portfolio/static/media/remixicon.7b85b7f8453487681fc4.svg",
-    "static/media/ott2.png": "/vishranth_portfolio/static/media/ott2.32e68d85c9e5664d6174.png",
-    "static/media/flightdelayprediction3.jpg": "/vishranth_portfolio/static/media/flightdelayprediction3.1a5fd62b8da44c7f4e1b.jpg",
     "static/media/remixicon.eot?t=1681573354175": "/vishranth_portfolio/static/media/remixicon.ae7015155af44fd22375.eot",
     "static/media/remixicon.ttf?t=1681573354175": "/vishranth_portfolio/static/media/remixicon.8df75b42f93ef0e1f8aa.ttf",
-    "static/media/ecom6a.png": "/vishranth_portfolio/static/media/ecom6a.8b31c5df1cba7ea61a68.png",
     "static/media/remixicon.woff?t=1681573354175": "/vishranth_portfolio/static/media/remixicon.56b6495e17f23a23803a.woff",
+    "static/media/keylogger.png": "/vishranth_portfolio/static/media/keylogger.367858dae04746e3781e.png",
     "static/media/remixicon.woff2?t=1681573354175": "/vishranth_portfolio/static/media/remixicon.52f02e1386dd3597bc00.woff2",
     "static/media/cybersec.png": "/vishranth_portfolio/static/media/cybersec.bf89fa566ba0c75dad48.png",
     "static/media/pyImage.png": "/vishranth_portfolio/static/media/pyImage.cb6dee0032b3173564d4.png",
     "static/media/qualysvmdr1.jpg": "/vishranth_portfolio/static/media/qualysvmdr1.a7b178edd5ee5751f8a1.jpg",
     "static/media/comptia3.png": "/vishranth_portfolio/static/media/comptia3.aaf9aa2f4eefc6ffc998.png",
     "static/media/awsccp1.png": "/vishranth_portfolio/static/media/awsccp1.04f92f7ef992d6498205.png",
-    "static/media/Vishranth_resume__july2024.pdf": "/vishranth_portfolio/static/media/Vishranth_resume__july2024.0efe58bcb6d1b5501138.pdf",
+    "static/media/Vishranth_Cyber_Resume_Jan_2026.pdf": "/vishranth_portfolio/static/media/Vishranth_Cyber_Resume_Jan_2026.255ccad678dc4cdc01ec.pdf",
+    "static/media/waf.webp": "/vishranth_portfolio/static/media/waf.79135d86dff9ac72b4e7.webp",
+    "static/media/recon.jpeg": "/vishranth_portfolio/static/media/recon.c3573305877975141085.jpeg",
     "static/media/mysql.png": "/vishranth_portfolio/static/media/mysql.48faf36579a368914213.png",
     "static/media/images_java3.png": "/vishranth_portfolio/static/media/images_java3.375f91150aebfc2e19ef.png",
     "static/media/java.svg": "/vishranth_portfolio/static/media/java.fc6a133132d8267c2e002fad0aefb83e.svg",
@@ -26,10 +26,10 @@
     "index.html": "/vishranth_portfolio/index.html",
     "static/media/figma.svg": "/vishranth_portfolio/static/media/figma.7bb0659e5f4269faf5ae4212f1b2c537.svg",
     "main.0f68cc57.css.map": "/vishranth_portfolio/static/css/main.0f68cc57.css.map",
-    "main.9478fe3b.js.map": "/vishranth_portfolio/static/js/main.9478fe3b.js.map"
+    "main.6be85464.js.map": "/vishranth_portfolio/static/js/main.6be85464.js.map"
   },
   "entrypoints": [
     "static/css/main.0f68cc57.css",
-    "static/js/main.9478fe3b.js"
+    "static/js/main.6be85464.js"
   ]
 }
