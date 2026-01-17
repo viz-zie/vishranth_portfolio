@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 // import { Document, Page, pdfjs } from 'react-pdf';
 // import resume from '../../images/resume.pdf';  --The pdf format is not loading
 // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudfare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-import resume from '../../images/Vishranth_resume__july2024.pdf'
+import resume from '../../images/Vishranth_Cyber_Resume_Jan_2026.pdf'
 const Header = () => { 
   // const headerRef = useRef(null); -  this is for sticky navbar
 
@@ -44,7 +44,7 @@ const Header = () => {
 
           {/* menu start */}
           <div className='menu'ref={menuRef} onClick={toggleMenu}>
-            <ul className='flex  items-center gap-10'>
+            <ul className='flex items-center gap-10'>
               <li className='text-white font-[600]'><a href='#about'>About</a></li>
               <li className='text-white font-[600]'><a href='#services'>Skills</a></li>
               <li className='text-white font-[600]'><a href='#portfolio'>Projects</a></li>
@@ -58,7 +58,7 @@ const Header = () => {
             <a href={resume} download='Resume'><button className=' md:flex md:items-center mx-4 my-6 md:my-0 flex items-center gap-2 text-white font-[600] border border-solid
             border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white
             hover:font-[500] ease-in duration-200'><i class="ri-mail-download-line"></i>Resume</button></a>
-            <span onClick={toggleMenu} className='text-2xl text-smallTextColor md:hidden cursor-pointer'>
+            <span onClick={toggleMenu} className='text-2xl cursor-pointer text-smallTextColor md:hidden'>
               <i class="ri-menu-line"></i>
             </span>
           </div>

@@ -21,7 +21,7 @@ const Hero = () => {
           {/* her left start */}
           <div className="w-full md:basis-1/2">
             <h5
-              data-aos="fade-right"
+              data-aos="fade-right"œœ
               data-aos-duration="1500"
               className="text-headingColor font-[600]
                         text-[25px]"
