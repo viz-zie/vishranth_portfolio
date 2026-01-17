@@ -1,6 +1,6 @@
 import portfolioImg01 from "../images/keylogger.png";
-import portfolioImg02 from "../images/ott2.png";
-import portfolioImg08 from "../images/flightdelayprediction3.jpg";
+import portfolioImg02 from "../images/waf.webp";
+import portfolioImg08 from "../images/recon.jpeg";
 import portfolioImg09 from "../images/comptia3.png";
 import portfolioImg10 from "../images/awsccp1.png";
 import portfolioImg11 from "../images/cybersec.png";
@@ -14,27 +14,25 @@ const portfolios = [
     title: "Keylogger Mail Integration",
     description: "",
     technologies: ["Python"],
-    siteUrl: "https://github.com/viz-zie/EcommerceWebsiteZenith",
+    siteUrl: "https://github.com/viz-zie/Keylogger",
   },
   {
     id: "02",
     imgUrl: portfolioImg08,
     category: "Projects",
-    title: "Flight Delay Prediction",
+    title: "Automated Reconnaissance Tool",
     description: "",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "https://github.com/viz-zie/Flight-Delay-Prediction",
+    technologies: ["Python"],
+    siteUrl: "https://github.com/viz-zie/Automated-recon",
   },
   {
     id: "03",
     imgUrl: portfolioImg02,
     category: "Projects",
-    title: "Multimedia Sharing Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl:
-      "https://www.figma.com/file/vuILf0GGLBB9fW5XmG8UfZ/ott_design_vizzie?type=design&mode=design&t=JHnaazeVjW0CghgJ-1",
+    title: "Advanced Web Application Firewall (WAF)",
+    description: "",
+    technologies: ["Python"],
+    siteUrl: "https://github.com/viz-zie/Advanced-WAF",
   },
   {
     id: "04",
